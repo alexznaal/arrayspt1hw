@@ -29,6 +29,21 @@ public class Main {
         //task3
         System.out.println("task3");
 
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + " ");
+        }
+        System.out.println();
+        for (int i = array.length-1; i >=0; i--) {
+            System.out.print(array[i]+" ");
+        }
 
+        System.out.println();
+        for (int i = arrayDouble.length-1; i >=0; i--) {
+            System.out.print(arrayDouble[i]+" ");
+        }
+        System.out.println();
+        for (int i = arrayRandom.length-1; i >=0; i--) {
+            System.out.print(arrayRandom[i]+" ");
+        }
     }
 }
