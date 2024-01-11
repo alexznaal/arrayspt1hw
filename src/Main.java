@@ -44,7 +44,18 @@ public class Main {
         System.out.println();
         for (int i = arrayRandom.length-1; i >=0; i--) {
             System.out.print(arrayRandom[i]+" ");
-            //r
+
+        }
+
+        System.out.println();
+        //task4
+        System.out.println("task4");
+
+        for (int i = 0; i < array.length; i++) {
+            if (!(array[i] % 2 == 0)) {
+                array[i] = array[i] + 1;
+            }
+            System.out.print(array[i]+" ");
         }
     }
 }
